@@ -8,12 +8,12 @@ test('test for one order', () => {
 
 
 // ordering Espresso and Cappucino
- test('test for one order', () => { 
+ test('test for two order', () => { 
     expect(cofeeMachine("Abhishek Bharti", [1, 2], [[true, false, true], [true, true, false]], 2)).toBe(330);
  })
 
  // ordering Espresso, Cappucino and Latte
- test('test for one order', () => { 
+ test('test for three order', () => { 
     expect(cofeeMachine("Abhishek Bharti", [1, 2, 3], [[true, false, true], [true, true, false], [false, true, true]], 3)).toBe(605);
  })
 

@@ -39,7 +39,6 @@ const Machine = (name, cofee, addOnsArr, times) => {
 
         // here taking value of choice from cofee array
         if (cofee[cofeeIndex] === 1) {
-            console.log("hello");
             let aCoffe = new Espresso();
             amountEs += addOns(...addOnsArr[addOnsIndex], aCoffe);
             espressoQty += 1;
@@ -58,8 +57,6 @@ const Machine = (name, cofee, addOnsArr, times) => {
         addOnsIndex += 1;       
         times -= 1;
     }
-
-    console.log(amountEs);
 
     bill.setLatteAmount = amountLa;
     bill.setEspressoAmount = amountEs;

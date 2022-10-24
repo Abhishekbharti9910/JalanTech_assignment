@@ -12,4 +12,4 @@
 
 ** feel free to run tests on your machine and please let me know turns to imporve if there is any mistake or misunderstanding **
 
-**_Thanks-giving-this-oppurtunity I enjoyed a lot in completing assignment**
+**Thanks-for-giving-this-oppurtunity I enjoyed a lot in completing assignment**
